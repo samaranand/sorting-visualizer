@@ -15,14 +15,3 @@
     width: 10px;
     transition: 0.1s all ease;
 }
-
-/* .row{
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-}
-
-#input{
-    display: flex;
-    padding: 10px;
-    justify-content: space-around;
-} */

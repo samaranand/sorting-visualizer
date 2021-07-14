@@ -12,9 +12,8 @@ let speedX = 0;
 
 //------------function for all algo----------//
 
-const delayAlgo = async (delay = 50) => {
+const delayAlgo = async (delay = 40) => {
     delay = delay - speedRange.value*4
-
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve("");
@@ -31,7 +30,7 @@ const clearArray = () => {
 
 const createNewArray = (val = 0) => {
   clearArray();
-  const noOfBars = 80 + 12 * val;
+  const noOfBars = 25 + 20 * val;
   
   for (let i = 0; i < noOfBars; i++) {
     array.push(Math.floor(Math.random() * 250) + 1);
